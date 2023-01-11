@@ -1,11 +1,12 @@
 import Head from "next/head";
 import {
-  AiFillTwitterCircle,
+  AiFillMediumCircle,
   AiFillLinkedin,
-  AiFillYoutube,
+  AiFillGithub,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
+import Button from 'react-bootstrap/Button';
 import deved from "../public/dev-ed-wave.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
@@ -40,12 +41,12 @@ export default function Home() {
                 />
               </li>
               <li>
-                <a
+                <Button
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="#"
                 >
                   Resume
-                </a>
+                </Button>
               </li>
             </ul>
           </nav>
@@ -57,13 +58,13 @@ export default function Home() {
               Full-Stack Developer and Engineer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Freelancer providing services for programming and design content
-              needs. Join me down below and let's get you started!
+            I offer my expertise in programming and design to help with any of your content needs. 
+            Please contact me to begin working on your project!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle/>
-              <AiFillLinkedin />
-              <AiFillYoutube />
+              <Button><AiFillMediumCircle/></Button>
+              <Button><AiFillLinkedin /></Button>
+              <Button><AiFillGithub /></Button>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} layout="fill" objectFit="cover" />
@@ -74,16 +75,15 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+            As a freelance designer and developer, I have a diverse experience working remotely for 
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              and collaborating with a talented team to produce digital products for both 
+              business and consumer use throughout my career journey.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including web app brand design,
-              programming and teaching.
+              I offer from a wide range of services, including web app design,
+              programming, Full CRUD App.
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -97,9 +97,10 @@ export default function Home() {
                 design theory.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1">Antdesign</p>
+              <p className="text-gray-800 py-1">Material UI</p>
+              <p className="text-gray-800 py-1">BootStrap</p>
+              <p className="text-gray-800 py-1">Taillwindcss</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
@@ -110,10 +111,15 @@ export default function Home() {
                 Do you have an idea for your next great website? Let's make it a
                 reality.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600">Dev Tools I Use</h4>
+              <p className="text-gray-800 py-1">MERN Stack</p>
+              <p className="text-gray-800 py-1">FERN Stack</p>
+              <p className="text-gray-800 py-1">Express</p>
+              <p className="text-gray-800 py-1">JavaScripts</p>
+              <p className="text-gray-800 py-1">TypeScript</p>
+              <p className="text-gray-800 py-1">Next.js</p>
+              <p className="text-gray-800 py-1">Git</p>
+              <p className="text-gray-800 py-1">GitHub</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
