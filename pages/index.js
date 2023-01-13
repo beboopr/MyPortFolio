@@ -43,7 +43,7 @@ export default function Home() {
               <li>
                 <Button
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  href="https://docs.google.com/document/d/e/2PACX-1vRznf0G-VtnipDy4CpLnXmjXgNBDuE9DrHpZx-jp_Z0KLK-NS4Oz8ClC88IJrYjqMALq5WDKXforwpb/pub"
                 >
                   Resume
                 </Button>
@@ -62,9 +62,9 @@ export default function Home() {
             Please contact me to begin working on your project!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <Button><AiFillMediumCircle/></Button>
-              <Button><AiFillLinkedin /></Button>
-              <Button><AiFillGithub /></Button>
+              <Button href="https://medium.com/@davila.fullrecord.edgar"><AiFillMediumCircle/></Button>
+              <Button href="https://www.linkedin.com/in/edgar-david/"><AiFillLinkedin/></Button>
+              <Button href="https://github.com/beboopr"><AiFillGithub/></Button>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} layout="fill" objectFit="cover" />
