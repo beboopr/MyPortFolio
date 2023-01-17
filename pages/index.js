@@ -101,6 +101,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Material UI</p>
               <p className="text-gray-800 py-1">BootStrap</p>
               <p className="text-gray-800 py-1">Taillwindcss</p>
+              <p className="text-gray-800 py-1">And More...</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
@@ -117,7 +118,6 @@ export default function Home() {
               <p className="text-gray-800 py-1">Express</p>
               <p className="text-gray-800 py-1">JavaScripts</p>
               <p className="text-gray-800 py-1">TypeScript</p>
-              <p className="text-gray-800 py-1">Next.js</p>
               <p className="text-gray-800 py-1">Git</p>
               <p className="text-gray-800 py-1">GitHub</p>
             </div>
