@@ -6,7 +6,7 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import Button from 'react-bootstrap/Button';
+import Button from "react-bootstrap/Button";
 import deved from "../public/dev-ed-wave.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
@@ -58,13 +58,20 @@ export default function Home() {
               Full-Stack Developer and Engineer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            I offer my expertise in programming and design to help with any of your content needs. 
-            Please contact me to begin working on your project!
+              I offer my expertise in programming and design to help with any of
+              your content needs. Please contact me to begin working on your
+              project!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <Button href="https://medium.com/@davila.fullrecord.edgar"><AiFillMediumCircle/></Button>
-              <Button href="https://www.linkedin.com/in/edgar-david/"><AiFillLinkedin/></Button>
-              <Button href="https://github.com/beboopr"><AiFillGithub/></Button>
+              <Button href="https://medium.com/@davila.fullrecord.edgar">
+                <AiFillMediumCircle />
+              </Button>
+              <Button href="https://www.linkedin.com/in/edgar-david/">
+                <AiFillLinkedin />
+              </Button>
+              <Button href="https://github.com/beboopr">
+                <AiFillGithub />
+              </Button>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} layout="fill" objectFit="cover" />
@@ -75,11 +82,12 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            As a freelance designer and developer, I have a diverse experience working remotely for 
+              As a freelance designer and developer, I have a diverse experience
+              working remotely for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
-              and collaborating with a talented team to produce digital products for both 
-              business and consumer use throughout my career journey.
+              and collaborating with a talented team to produce digital products
+              for both business and consumer use throughout my career journey.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I offer from a wide range of services, including web app design,
@@ -155,42 +163,46 @@ export default function Home() {
             <div className="basis-1/3 flex-1 ">
               <Button href="https://github.com/bocacode/bocacode-intranet-typescript">
                 <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={bocacode}
-              /> </Button>
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={bocacode}
+                />{" "}
+              </Button>
             </div>
             <div className="basis-1/3 flex-1">
               <Button href="https://github.com/beboopr/pitch-vote">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={pitchvote}
-              /> </Button>
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={pitchvote}
+                />{" "}
+              </Button>
             </div>
             <div className="basis-1/3 flex-1">
               <Button href="https://github.com/beboopr/react-movies">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={reactmovies}
-              /> </Button>
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={reactmovies}
+                />{" "}
+              </Button>
             </div>
             <div className="basis-1/3 flex-1">
               <Button href="https://github.com/beboopr/united-front">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={united}
-              /> </Button>
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={united}
+                />{" "}
+              </Button>
             </div>
             {/* <div className="basis-1/3 flex-1">
               <Image
