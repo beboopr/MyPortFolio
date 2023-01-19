@@ -1,9 +1,5 @@
 import Head from "next/head";
-import {
-  AiFillMediumCircle,
-  AiFillLinkedin,
-  AiFillGithub,
-} from "react-icons/ai";
+import { AiFillMediumCircle, AiFillLinkedin, AiFillGithub,} from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
@@ -74,7 +70,11 @@ export default function Home() {
               </Button>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image 
+              src={deved} 
+              // layout="fill" 
+              // objectFit="cover"
+              alt="image of an avatar"/>
             </div>
           </div>
         </section>
@@ -96,8 +96,8 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
+              <Image src={design} width={100} height={100} alt="icon logo"/>
+              <h3 className="text-lg font-medium pt-8 pb-2">
                 Beautiful Designs
               </h3>
               <p className="py-2">
@@ -112,7 +112,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">And More...</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt="hashtag icon"/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code your dream project
               </h3>
@@ -130,7 +130,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">GitHub</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt="thumbnail icon"/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
               <p className="py-2">
                 Are you interested in feedback for your current project? I can
@@ -149,8 +149,8 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
+              <span className="text-teal-500"> Agencies </span>
+              consulted for <span className="text-teal-500">Startups </span>
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
@@ -160,24 +160,26 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
+            <span className="basis-1/3 flex-1 ">
               <Button href="https://github.com/bocacode/bocacode-intranet-typescript">
                 <Image
+                alt="a group of boca code students"
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
-                  layout="responsive"
+                  // layout="responsive"
                   src={bocacode}
                 />{" "}
               </Button>
-            </div>
+            </span>
             <div className="basis-1/3 flex-1">
               <Button href="https://github.com/beboopr/pitch-vote">
                 <Image
+                alt="pitch voting app made from Boca Code students"
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
-                  layout="responsive"
+                  // layout="responsive"
                   src={pitchvote}
                 />{" "}
               </Button>
@@ -185,10 +187,11 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Button href="https://github.com/beboopr/react-movies">
                 <Image
+                alt="a project created for movies with a horror theme"
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
-                  layout="responsive"
+                  // layout="responsive"
                   src={reactmovies}
                 />{" "}
               </Button>
@@ -196,10 +199,11 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Button href="https://github.com/beboopr/united-front">
                 <Image
+                alt="a full CRUD web app"
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
-                  layout="responsive"
+                  // layout="responsive"
                   src={united}
                 />{" "}
               </Button>
